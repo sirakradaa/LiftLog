@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "LiftLog",
+    "slug": "liftlog",
+    "scheme": "liftlog",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "backgroundColor": "#0f1115",
+    "ios": {
+      "bundleIdentifier": "com.sirak.liftlog",
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.sirak.liftlog",
+      "edgeToEdgeEnabled": true
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      [
+        "expo-notifications",
+        {
+          "color": "#3b82f6"
+        }
+      ],
+      "@react-native-community/datetimepicker"
+    ]
+  }
+}
