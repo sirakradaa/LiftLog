@@ -3,12 +3,18 @@
     "version": ">= 16.0.0"
   },
   "build": {
+    "base": {
+      "node": "24.19.0"
+    },
     "preview": {
+      "extends": "base",
       "distribution": "internal",
       "android": {
         "buildType": "apk"
       }
     },
-    "production": {}
+    "production": {
+      "extends": "base"
+    }
   }
 }
