@@ -2,7 +2,7 @@
 
 A personal workout tracker modeled on [Strong](https://www.strong.app/), built with Expo (React Native + TypeScript) so it runs on Android and iOS from one codebase. Data lives on the phone in SQLite; the schema (UUIDs, `updated_at`, soft deletes) is ready for a cloud sync layer later.
 
-This is the exact app that I wanted for my workouts. Here is the [watch companion app](https://github.com/sirakradaa/LiftLog).
+This is the exact app that I wanted for my workouts. Here is the [watch companion app](https://github.com/sirakradaa/LiftLog-watch).
 
 ## Run it on your phone
 
