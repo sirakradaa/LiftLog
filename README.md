@@ -2,17 +2,17 @@
 
 A personal workout tracker modeled on [Strong](https://www.strong.app/), built with Expo (React Native + TypeScript) so it runs on Android and iOS from one codebase. Data lives on the phone in SQLite; the schema (UUIDs, `updated_at`, soft deletes) is ready for a cloud sync layer later.
 
+This is the exact app that I wanted for my workouts. Here is the [watch companion app](https://github.com/sirakradaa/LiftLog).
+
 ## Run it on your phone
 
 1. Install [Node.js LTS](https://nodejs.org/) and, on the phone, **Expo Go** from the Play Store.
 2. In this folder:
-
    ```powershell
-   npm install
-   npx expo install --fix   # aligns native package versions with the installed Expo SDK
-   npx expo start
+     npm install
+     npx expo install --fix   # aligns native package versions with the installed Expo SDK
+     npx expo start
    ```
-
 3. Scan the QR code with Expo Go (phone and PC on the same Wi-Fi; use `npx expo start --tunnel` otherwise).
 
 If Expo Go says the project's SDK is unsupported, upgrade to the SDK Expo Go supports:
